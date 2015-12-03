@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CADFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Version="0.9.8.0" Name="anderson_plate_6_poles" units="Inches">
+  <layers>
+    <layer name="0" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <pline id="44" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>0.25,0.25,0</p>
+            <p>0.775,0.25,0</p>
+            <p>0.775,0.37825,0</p>
+            <p>1.025,0.37825,0</p>
+            <p>1.025,0.25,0</p>
+            <p>1.55,0.25,0</p>
+            <p>1.55,0.37825,0</p>
+            <p>1.8,0.37825,0</p>
+            <p>1.8,0.25,0</p>
+            <p>2.325,0.25,0</p>
+            <p>2.325,0.37825,0</p>
+            <p>2.575,0.37825,0</p>
+            <p>2.575,-2.77555756156E-17,0</p>
+            <p>-2.77555756156E-16,-2.77555756156E-17,0</p>
+            <p>-2.77555756156E-16,0.37825,0</p>
+            <p>0.25,0.37825,0</p>
+          </pts>
+        </pline>
+        <pline id="45" Closed="true">
+          <ModificationCount>1</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>1.025,0.62825,0</p>
+            <p>1.025,0.7565,0</p>
+            <p>1.55,0.7565,0</p>
+            <p>1.55,0.62825,0</p>
+            <p>1.8,0.62825,0</p>
+            <p>1.8,0.7565,0</p>
+            <p>2.325,0.7565,0</p>
+            <p>2.325,0.62825,0</p>
+            <p>2.575,0.62825,0</p>
+            <p>2.575,1.0065,0</p>
+            <p>-2.49800180541E-16,1.0065,0</p>
+            <p>-2.49800180541E-16,0.62825,0</p>
+            <p>0.25,0.62825,0</p>
+            <p>0.25,0.7565,0</p>
+            <p>0.775,0.7565,0</p>
+            <p>0.775,0.62825,0</p>
+          </pts>
+        </pline>
+      </objects>
+    </layer>
+    <layer name="drill" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <circle id="37" c="0.125,0.817375,0" d="0.13">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="38" c="2.45,0.817375,0" d="0.13">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="39" c="2.45,0.189125,0" d="0.13">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+        <circle id="40" c="0.125,0.189125,0" d="0.13">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+        </circle>
+      </objects>
+    </layer>
+    <layer name="construction" color="255,255,255">
+      <ModificationCount>0</ModificationCount>
+      <objects>
+        <line id="33">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>-2.49800180541E-16,0.817375</p>
+            <p>0.125,0.817375</p>
+          </pts>
+        </line>
+        <line id="34">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>-2.77555756156E-16,0.189125</p>
+            <p>0.125,0.189125</p>
+          </pts>
+        </line>
+        <line id="35">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>2.575,0.817375</p>
+            <p>2.45,0.817375</p>
+          </pts>
+        </line>
+        <line id="36">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>2.575,0.189125</p>
+            <p>2.45,0.189125</p>
+          </pts>
+        </line>
+        <line id="41">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>0.5125,0.7565</p>
+            <p>0.5125,0.7885</p>
+          </pts>
+        </line>
+        <line id="42">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>1.2875,0.7565</p>
+            <p>1.2875,0.7885</p>
+          </pts>
+        </line>
+        <line id="43">
+          <ModificationCount>0</ModificationCount>
+          <mat m="Identity" />
+          <pts>
+            <p>2.0625,0.7565</p>
+            <p>2.0625,0.7885</p>
+          </pts>
+        </line>
+      </objects>
+    </layer>
+  </layers>
+  <MachiningOptions>
+    <FastPlungeHeight>-1</FastPlungeHeight>
+    <Stock>
+      <PMin>0,0</PMin>
+      <PMax>0,0</PMax>
+      <Color>255,165,0</Color>
+    </Stock>
+    <ToolProfile>Unspecified</ToolProfile>
+    <MachiningOrigin />
+  </MachiningOptions>
+  <parts />
+  <ToolpathVisiblility>All</ToolpathVisiblility>
+  <ActiveLayer>construction</ActiveLayer>
+</CADFile>
